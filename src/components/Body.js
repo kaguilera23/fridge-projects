@@ -1,7 +1,9 @@
+import "../styles/Body.css"
+
 function Body() {
     return (
-        <div>
-            This is a body
+        <div id = "body-content">
+            
         </div>
     )
 }

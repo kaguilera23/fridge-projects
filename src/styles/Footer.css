@@ -1,0 +1,25 @@
+:root {
+    --mainpink: #a63a50;
+    --mainpurple: #b2a6ee;
+    --mainbeige: #f0e7d8;
+    --mainbrown: #a1674a;
+    --burntpink: #ba6e6e
+}
+
+#main-footer {
+    background-color: var(--mainpink)
+}
+
+#footer-text {
+    color: white;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
