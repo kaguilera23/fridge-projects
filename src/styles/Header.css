@@ -8,6 +8,7 @@
 
 #main-header {
     background-color: var(--mainpink);
+    padding: 10px;
 }
 
 #header-text {

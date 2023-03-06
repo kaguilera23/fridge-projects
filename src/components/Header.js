@@ -1,35 +1,34 @@
 import React from 'react';
 import "../styles/Header.css"
 
-function Header() {
+function Header({currentPage, handlePageChange}) {
   return (
     <div id="main-header"> 
-      <nav className="navbar navbar-expand-lg">
-  <div className="container-fluid">
-    <a className="navbar-brand"  id = "header-text">Kayla Aguilera</a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarNav">
-      <ul className="navbar-nav">
-        <li className="nav-item">
-          <a className="nav-link active" aria-current="page"  id = "header-text">About Me</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link"  id = "header-text">Portfolio</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link"  id = "header-text">Contact Me</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link"  id = "header-text">Resume</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="https://www.google.com" id="header-text">Kayla Aguilera</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#AboutMe" id="header-text" onClick={() => handlePageChange("AboutMe")} className={currentPage === "AboutMe" ? 'nav-link active' : 'nav-link'}>About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Portfolio" id="header-text" onClick={() => handlePageChange("Portfolio")} className={currentPage === "Portfolio" ? 'nav-link active' : 'nav-link'}>Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ContactMe" id="header-text" onClick={() => handlePageChange("ContactMe")} className={currentPage === "ContactMe" ? 'nav-link active' : 'nav-link'}>Contact Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Resume" id="header-text" onClick={() => handlePageChange("Resume")} className={currentPage === "Resume" ? 'nav-link active' : 'nav-link'}>Resume</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
   );
 }
 
 export default Header;
+
