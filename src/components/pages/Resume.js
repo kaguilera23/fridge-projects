@@ -1,7 +1,7 @@
 function Resume() {
     return (
         <div>
-            This is the Resume Page
+            <a href="./KaylaAguileraFullStackResume.pdf" download>Download My Resume Here</a>
         </div>
     )
 };
