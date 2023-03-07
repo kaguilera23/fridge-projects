@@ -10,10 +10,6 @@
     background-color: var(--mainpink)
 }
 
-#footer-text {
-    color: white;
-}
-
 .footer {
     position: fixed;
     left: 0;
@@ -22,3 +18,14 @@
     color: white;
     text-align: center;
   }
+
+#links {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+}

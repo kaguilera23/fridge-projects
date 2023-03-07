@@ -1,11 +1,17 @@
 import React from 'react';
 import "../styles/Header.css"
 
+const styles = {
+  name: {
+    fontSize: "20px"
+  }
+}
+
 function Header({currentPage, handlePageChange}) {
   return (
     <div id="main-header"> 
       <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="https://www.google.com" id="header-text">Kayla Aguilera</a>
+        <p id="header-text" style={styles.name}>Kayla Aguilera</p>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
