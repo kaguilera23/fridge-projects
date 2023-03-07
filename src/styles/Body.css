@@ -1,0 +1,13 @@
+:root {
+    --mainpink: #a63a50;
+    --mainpurple: #b2a6ee;
+    --mainbeige: #f0e7d8;
+    --mainbrown: #a1674a;
+    --burntpink: #ba6e6e
+}
+
+#body-content {
+    background-color: var(--mainbeige);
+    height: 100%;
+    width: 100%;
+}
