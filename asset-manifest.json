@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/fridge-projects/static/css/main.5293ad6f.css",
-    "main.js": "/fridge-projects/static/js/main.7d592b22.js",
+    "main.css": "/fridge-projects/static/css/main.63c2eed2.css",
+    "main.js": "/fridge-projects/static/js/main.342221d2.js",
     "static/media/Resume.pdf": "/fridge-projects/static/media/Resume.828c8a6e3600d3ec02a5.pdf",
     "index.html": "/fridge-projects/index.html",
-    "main.5293ad6f.css.map": "/fridge-projects/static/css/main.5293ad6f.css.map",
-    "main.7d592b22.js.map": "/fridge-projects/static/js/main.7d592b22.js.map"
+    "main.63c2eed2.css.map": "/fridge-projects/static/css/main.63c2eed2.css.map",
+    "main.342221d2.js.map": "/fridge-projects/static/js/main.342221d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.5293ad6f.css",
-    "static/js/main.7d592b22.js"
+    "static/css/main.63c2eed2.css",
+    "static/js/main.342221d2.js"
   ]
 }
