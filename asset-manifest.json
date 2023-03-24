@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/fridge-projects/static/css/main.073c9b0a.css",
+    "main.js": "/fridge-projects/static/js/main.bce842e3.js",
+    "static/js/787.78892627.chunk.js": "/fridge-projects/static/js/787.78892627.chunk.js",
+    "static/media/logo.svg": "/fridge-projects/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/fridge-projects/index.html",
+    "main.073c9b0a.css.map": "/fridge-projects/static/css/main.073c9b0a.css.map",
+    "main.bce842e3.js.map": "/fridge-projects/static/js/main.bce842e3.js.map",
+    "787.78892627.chunk.js.map": "/fridge-projects/static/js/787.78892627.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.bce842e3.js"
+  ]
+}
