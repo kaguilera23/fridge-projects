@@ -1,0 +1,39 @@
+:root {
+    --mainpink: #a63a50;
+    --mainpurple: #b2a6ee;
+    --mainbeige: #f0e7d8;
+    --mainbrown: #a1674a;
+    --burntpink: #ba6e6e
+}
+
+#main-header {
+    background-color: var(--mainpink);
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Playfair Display SC', serif;
+
+}
+
+#header-text {
+    color: var(--mainbrown)
+}
+
+.nav-links {
+    border-left: var(--mainbeige) 1px solid;
+    padding: 4px;
+}
+
+.activated {
+    background-color: #c1455e;
+    border-radius: 15px;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
