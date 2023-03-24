@@ -26,3 +26,18 @@
     font-size: 30px;
     text-align: center;
 }
+
+@media screen and (max-width: 1333px) {
+    #row {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #parks-stuff {
+        width:fit-content
+    }
+
+    #image {
+        align-self: center;
+    }
+  }

@@ -6,7 +6,7 @@ function FunFacts() {
     return (
         <div id="box">
 
-            <Row>
+            <Row id="row">
                
                 <Image
                      width={450}
@@ -36,7 +36,7 @@ function FunFacts() {
 
             {/* -------------------------------------------Row 2------------------------------------------------------ */}
 
-            <Row>
+            <Row id="row">
                 <Col flex={8} id="parks-stuff">
                     <Row>
                         <p id="fun-intro-text">
